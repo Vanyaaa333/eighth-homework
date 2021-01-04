@@ -9,7 +9,7 @@ public class Cylinder extends SolidOfRevolution{
         super(radius);
         this.high = high;
         this.setVolume(PI*radius*radius*high);
-        this.setName("Цилидндр");
+        this.setName("Цилиндр");
     }
 
     @Override

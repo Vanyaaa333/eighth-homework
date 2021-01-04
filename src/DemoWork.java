@@ -19,7 +19,7 @@ public class DemoWork {
             }
             else{
                 double remainingSpaceOfBox = figuresVolumes[i].getVolume() - box.getVolume();
-                System.out.printf("Фигура %s не была добавлена ,недостаток места равен %.2f cm^3 ,купите бокс побольше ^^",figuresVolumes[i].getName(),remainingSpaceOfBox);
+                System.out.printf("Фигура %s не была добавлена ,недостаток места равен %.2f cm^3 ,купите бокс побольше ",figuresVolumes[i].getName(),remainingSpaceOfBox);
             }
         }
 
